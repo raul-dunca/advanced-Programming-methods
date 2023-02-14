@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" prefHeight="549.0" prefWidth="778.0" spacing="20.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.testjavafx.MainController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <children>
+      <VBox maxHeight="50.0" maxWidth="300.0" prefHeight="50.0" prefWidth="300.0">
+         <children>
+            <Label text="Number of PrgStates:">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <TextField fx:id="NrofPrgStatesTextField" alignment="TOP_LEFT" maxHeight="30.0" minHeight="30.0" prefHeight="30.0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </TextField>
+         </children>
+      </VBox>
+      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0">
+         <children>
+            <VBox maxHeight="220.0" maxWidth="220.0" minHeight="220.0" minWidth="220.0" prefHeight="220.0" prefWidth="220.0">
+               <children>
+                  <Label text="HeapTable">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <TableView fx:id="HeapTableView" prefHeight="200.0" prefWidth="100.0">
+                    <columns>
+                      <TableColumn fx:id="HeapAddress" prefWidth="75.0" text="Address" />
+                      <TableColumn fx:id="HeapValue" prefWidth="75.0" text="Value" />
+                    </columns>
+                     <columnResizePolicy>
+                        <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+                     </columnResizePolicy>
+                  </TableView>
+               </children>
+            </VBox>
+            <VBox maxHeight="220.0" maxWidth="220.0" minHeight="220.0" minWidth="220.0" prefHeight="220.0" prefWidth="220.0">
+               <children>
+                  <Label text="Out">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <ListView fx:id="OutListView" prefHeight="200.0" prefWidth="200.0" />
+               </children>
+            </VBox>
+            <VBox maxHeight="220.0" maxWidth="220.0" minHeight="220.0" minWidth="220.0" prefHeight="220.0" prefWidth="220.0">
+               <children>
+                  <Label text="FileTable">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <ListView fx:id="FileTableListView" prefHeight="200.0" prefWidth="200.0" />
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0">
+         <children>
+            <VBox maxHeight="220.0" maxWidth="220.0" minHeight="220.0" minWidth="220.0" prefHeight="220.0" prefWidth="220.0">
+               <children>
+                  <Label text="PrgState Identifiers">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <ListView fx:id="PrgStateIdentifiersListView" minHeight="200.0" minWidth="200.0" onMouseClicked="#updatePrg" prefHeight="200.0" prefWidth="200.0" />
+               </children>
+            </VBox>
+            <VBox maxHeight="220.0" maxWidth="220.0" minHeight="220.0" minWidth="220.0" prefHeight="220.0" prefWidth="220.0">
+               <children>
+                  <Label text="SymTable">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <TableView fx:id="SymTableTableView" minHeight="200.0" minWidth="200.0" prefHeight="200.0" prefWidth="200.0">
+                    <columns>
+                      <TableColumn fx:id="SymTblName" prefWidth="75.0" text="Var Name" />
+                      <TableColumn fx:id="SymTblValue" prefWidth="75.0" text="Value" />
+                    </columns>
+                     <columnResizePolicy>
+                        <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+                     </columnResizePolicy>
+                  </TableView>
+               </children>
+            </VBox>
+            <VBox maxHeight="220.0" maxWidth="220.0" minHeight="220.0" minWidth="220.0" prefHeight="220.0" prefWidth="220.0">
+               <children>
+                  <Label text="ExeStack">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <ListView fx:id="ExeStackListView" minHeight="200.0" minWidth="200.0" prefHeight="200.0" prefWidth="200.0" />
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0">
+         <children>
+            <VBox minHeight="220.0" minWidth="220.0" prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <Label text="LatchTable">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <TableView fx:id="LatchTableTableView" minHeight="200.0" minWidth="200.0" prefHeight="200.0" prefWidth="200.0">
+                    <columns>
+                      <TableColumn fx:id="LatchTblLocation" prefWidth="75.0" text="Locaiton" />
+                      <TableColumn fx:id="LatchTblValue" prefWidth="75.0" text="Value" />
+                    </columns>
+                     <columnResizePolicy>
+                        <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+                     </columnResizePolicy>
+                  </TableView>
+               </children>
+            </VBox>
+            <VBox minHeight="220.0" minWidth="220.0" prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <Label text="LockTable">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <TableView fx:id="LockTableTableView" minHeight="200.0" minWidth="200.0" prefHeight="200.0" prefWidth="200.0">
+                    <columns>
+                      <TableColumn fx:id="LockTableLocation" prefWidth="75.0" text="Location" />
+                      <TableColumn fx:id="LockTableTableValue" prefWidth="75.0" text="Value" />
+                    </columns>
+                     <columnResizePolicy>
+                        <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+                     </columnResizePolicy>
+                  </TableView>
+               </children>
+            </VBox>
+            <VBox minHeight="220.0" minWidth="220.0" prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <Label text="ProcTable">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <TableView fx:id="ProcTableTableView" minHeight="200.0" minWidth="200.0" prefHeight="200.0" prefWidth="200.0">
+                    <columns>
+                      <TableColumn fx:id="ProcNameParamsCol" prefWidth="75.0" text="ProcNameParams" />
+                      <TableColumn fx:id="BodyCol" prefWidth="75.0" text="Body" />
+                    </columns>
+                     <columnResizePolicy>
+                        <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+                     </columnResizePolicy>
+                  </TableView>
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+      <Button fx:id="RunOneStepBtn" mnemonicParsing="false" onAction="#executeOneStep" text="RUN ONE STEP" textFill="#e80606">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+   </children>
+</VBox>
