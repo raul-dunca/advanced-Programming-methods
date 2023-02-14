@@ -12,6 +12,8 @@ LatchTable:
 {}
 LockTable: 
 {}
+ProcedureTable: 
+{}
 
 ID of the program: 7
 ExeStack: 
@@ -27,6 +29,8 @@ Heap:
 LatchTable: 
 {}
 LockTable: 
+{}
+ProcedureTable: 
 {}
 
 ID of the program: 7
@@ -45,6 +49,8 @@ LatchTable:
 {}
 LockTable: 
 {}
+ProcedureTable: 
+{}
 
 ID of the program: 7
 ExeStack: 
@@ -61,6 +67,8 @@ LatchTable:
 {}
 LockTable: 
 {}
+ProcedureTable: 
+{}
 
 ID of the program: 7
 ExeStack: 
@@ -75,6 +83,8 @@ Heap:
 LatchTable: 
 {}
 LockTable: 
+{}
+ProcedureTable: 
 {}
 
 ID of the program: 7
@@ -92,6 +102,8 @@ LatchTable:
 {}
 LockTable: 
 {}
+ProcedureTable: 
+{}
 
 ID of the program: 7
 ExeStack: 
@@ -106,6 +118,8 @@ Heap:
 LatchTable: 
 {}
 LockTable: 
+{}
+ProcedureTable: 
 {}
 
 ID of the program: 7
@@ -123,6 +137,8 @@ LatchTable:
 {}
 LockTable: 
 {}
+ProcedureTable: 
+{}
 
 ID of the program: 7
 ExeStack: 
@@ -137,6 +153,8 @@ Heap:
 LatchTable: 
 {}
 LockTable: 
+{}
+ProcedureTable: 
 {}
 
 ID of the program: 7
@@ -154,6 +172,8 @@ LatchTable:
 {}
 LockTable: 
 {}
+ProcedureTable: 
+{}
 
 ID of the program: 7
 ExeStack: 
@@ -168,6 +188,8 @@ Heap:
 LatchTable: 
 {}
 LockTable: 
+{}
+ProcedureTable: 
 {}
 
 ID of the program: 7
@@ -185,6 +207,8 @@ LatchTable:
 {}
 LockTable: 
 {}
+ProcedureTable: 
+{}
 
 ID of the program: 7
 ExeStack: 
@@ -199,6 +223,8 @@ Heap:
 LatchTable: 
 {}
 LockTable: 
+{}
+ProcedureTable: 
 {}
 
 ID of the program: 7
@@ -216,6 +242,8 @@ LatchTable:
 {}
 LockTable: 
 {}
+ProcedureTable: 
+{}
 
 ID of the program: 7
 ExeStack: 
@@ -230,6 +258,8 @@ Heap:
 LatchTable: 
 {}
 LockTable: 
+{}
+ProcedureTable: 
 {}
 
 ID of the program: 7
@@ -247,6 +277,8 @@ LatchTable:
 {}
 LockTable: 
 {}
+ProcedureTable: 
+{}
 
 ID of the program: 7
 ExeStack: 
@@ -261,6 +293,8 @@ Heap:
 LatchTable: 
 {}
 LockTable: 
+{}
+ProcedureTable: 
 {}
 
 ID of the program: 7
@@ -278,6 +312,8 @@ LatchTable:
 {}
 LockTable: 
 {}
+ProcedureTable: 
+{}
 
 ID of the program: 7
 ExeStack: 
@@ -292,6 +328,8 @@ Heap:
 LatchTable: 
 {1=3}
 LockTable: 
+{}
+ProcedureTable: 
 {}
 
 ID of the program: 7
@@ -309,6 +347,8 @@ LatchTable:
 {1=3}
 LockTable: 
 {}
+ProcedureTable: 
+{}
 
 ID of the program: 7
 ExeStack: 
@@ -324,8 +364,10 @@ LatchTable:
 {1=3}
 LockTable: 
 {}
+ProcedureTable: 
+{}
 
-ID of the program: 16
+ID of the program: 10
 ExeStack: 
 Compound Stmt ( HeapWriting: v1: Arithmetic exp: HeapReading: VarEval exp : v1 * Value exp: Int value: 10, Compound Stmt ( print (HeapReading: VarEval exp : v1), Compound Stmt ( countDown(cnt), FORK ( Compound Stmt ( HeapWriting: v2: Arithmetic exp: HeapReading: VarEval exp : v2 * Value exp: Int value: 10, Compound Stmt ( print (HeapReading: VarEval exp : v2), Compound Stmt ( countDown(cnt), FORK ( Compound Stmt ( HeapWriting: v3: Arithmetic exp: HeapReading: VarEval exp : v3 * Value exp: Int value: 10, Compound Stmt ( print (HeapReading: VarEval exp : v3), countDown(cnt))) )))) ))))
 Symbols Table: 
@@ -338,6 +380,8 @@ Heap:
 LatchTable: 
 {1=3}
 LockTable: 
+{}
+ProcedureTable: 
 {}
 
 ID of the program: 7
@@ -355,8 +399,10 @@ LatchTable:
 {1=3}
 LockTable: 
 {}
+ProcedureTable: 
+{}
 
-ID of the program: 16
+ID of the program: 10
 ExeStack: 
 HeapWriting: v1: Arithmetic exp: HeapReading: VarEval exp : v1 * Value exp: Int value: 10
 Compound Stmt ( print (HeapReading: VarEval exp : v1), Compound Stmt ( countDown(cnt), FORK ( Compound Stmt ( HeapWriting: v2: Arithmetic exp: HeapReading: VarEval exp : v2 * Value exp: Int value: 10, Compound Stmt ( print (HeapReading: VarEval exp : v2), Compound Stmt ( countDown(cnt), FORK ( Compound Stmt ( HeapWriting: v3: Arithmetic exp: HeapReading: VarEval exp : v3 * Value exp: Int value: 10, Compound Stmt ( print (HeapReading: VarEval exp : v3), countDown(cnt))) )))) )))
@@ -371,6 +417,8 @@ LatchTable:
 {1=3}
 LockTable: 
 {}
+ProcedureTable: 
+{}
 
 ID of the program: 7
 ExeStack: 
@@ -387,8 +435,10 @@ LatchTable:
 {1=3}
 LockTable: 
 {}
+ProcedureTable: 
+{}
 
-ID of the program: 16
+ID of the program: 10
 ExeStack: 
 Compound Stmt ( print (HeapReading: VarEval exp : v1), Compound Stmt ( countDown(cnt), FORK ( Compound Stmt ( HeapWriting: v2: Arithmetic exp: HeapReading: VarEval exp : v2 * Value exp: Int value: 10, Compound Stmt ( print (HeapReading: VarEval exp : v2), Compound Stmt ( countDown(cnt), FORK ( Compound Stmt ( HeapWriting: v3: Arithmetic exp: HeapReading: VarEval exp : v3 * Value exp: Int value: 10, Compound Stmt ( print (HeapReading: VarEval exp : v3), countDown(cnt))) )))) )))
 Symbols Table: 
@@ -402,6 +452,8 @@ LatchTable:
 {1=3}
 LockTable: 
 {}
+ProcedureTable: 
+{}
 
 ID of the program: 7
 ExeStack: 
@@ -418,8 +470,10 @@ LatchTable:
 {1=3}
 LockTable: 
 {}
+ProcedureTable: 
+{}
 
-ID of the program: 16
+ID of the program: 10
 ExeStack: 
 print (HeapReading: VarEval exp : v1)
 Compound Stmt ( countDown(cnt), FORK ( Compound Stmt ( HeapWriting: v2: Arithmetic exp: HeapReading: VarEval exp : v2 * Value exp: Int value: 10, Compound Stmt ( print (HeapReading: VarEval exp : v2), Compound Stmt ( countDown(cnt), FORK ( Compound Stmt ( HeapWriting: v3: Arithmetic exp: HeapReading: VarEval exp : v3 * Value exp: Int value: 10, Compound Stmt ( print (HeapReading: VarEval exp : v3), countDown(cnt))) )))) ))
@@ -434,6 +488,8 @@ LatchTable:
 {1=3}
 LockTable: 
 {}
+ProcedureTable: 
+{}
 
 ID of the program: 7
 ExeStack: 
@@ -451,8 +507,10 @@ LatchTable:
 {1=3}
 LockTable: 
 {}
+ProcedureTable: 
+{}
 
-ID of the program: 16
+ID of the program: 10
 ExeStack: 
 Compound Stmt ( countDown(cnt), FORK ( Compound Stmt ( HeapWriting: v2: Arithmetic exp: HeapReading: VarEval exp : v2 * Value exp: Int value: 10, Compound Stmt ( print (HeapReading: VarEval exp : v2), Compound Stmt ( countDown(cnt), FORK ( Compound Stmt ( HeapWriting: v3: Arithmetic exp: HeapReading: VarEval exp : v3 * Value exp: Int value: 10, Compound Stmt ( print (HeapReading: VarEval exp : v3), countDown(cnt))) )))) ))
 Symbols Table: 
@@ -467,6 +525,8 @@ LatchTable:
 {1=3}
 LockTable: 
 {}
+ProcedureTable: 
+{}
 
 ID of the program: 7
 ExeStack: 
@@ -484,8 +544,10 @@ LatchTable:
 {1=3}
 LockTable: 
 {}
+ProcedureTable: 
+{}
 
-ID of the program: 16
+ID of the program: 10
 ExeStack: 
 countDown(cnt)
 FORK ( Compound Stmt ( HeapWriting: v2: Arithmetic exp: HeapReading: VarEval exp : v2 * Value exp: Int value: 10, Compound Stmt ( print (HeapReading: VarEval exp : v2), Compound Stmt ( countDown(cnt), FORK ( Compound Stmt ( HeapWriting: v3: Arithmetic exp: HeapReading: VarEval exp : v3 * Value exp: Int value: 10, Compound Stmt ( print (HeapReading: VarEval exp : v3), countDown(cnt))) )))) )
@@ -501,6 +563,8 @@ LatchTable:
 {1=3}
 LockTable: 
 {}
+ProcedureTable: 
+{}
 
 ID of the program: 7
 ExeStack: 
@@ -510,7 +574,7 @@ Symbols Table:
 {r=Int value: 0, cnt=Int value: 1, v1=(1, int), v2=(2, int), v3=(3, int)}
 Output: 
 Int value: 20
-Int value: 16
+Int value: 10
 File Table: 
 {}
 Heap: 
@@ -519,15 +583,17 @@ LatchTable:
 {1=2}
 LockTable: 
 {}
+ProcedureTable: 
+{}
 
-ID of the program: 16
+ID of the program: 10
 ExeStack: 
 FORK ( Compound Stmt ( HeapWriting: v2: Arithmetic exp: HeapReading: VarEval exp : v2 * Value exp: Int value: 10, Compound Stmt ( print (HeapReading: VarEval exp : v2), Compound Stmt ( countDown(cnt), FORK ( Compound Stmt ( HeapWriting: v3: Arithmetic exp: HeapReading: VarEval exp : v3 * Value exp: Int value: 10, Compound Stmt ( print (HeapReading: VarEval exp : v3), countDown(cnt))) )))) )
 Symbols Table: 
 {r=Int value: 0, cnt=Int value: 1, v1=(1, int), v2=(2, int), v3=(3, int)}
 Output: 
 Int value: 20
-Int value: 16
+Int value: 10
 File Table: 
 {}
 Heap: 
@@ -535,6 +601,8 @@ Heap:
 LatchTable: 
 {1=2}
 LockTable: 
+{}
+ProcedureTable: 
 {}
 
 ID of the program: 7
@@ -545,7 +613,7 @@ Symbols Table:
 {r=Int value: 0, cnt=Int value: 1, v1=(1, int), v2=(2, int), v3=(3, int)}
 Output: 
 Int value: 20
-Int value: 16
+Int value: 10
 File Table: 
 {}
 Heap: 
@@ -554,14 +622,16 @@ LatchTable:
 {1=2}
 LockTable: 
 {}
+ProcedureTable: 
+{}
 
-ID of the program: 16
+ID of the program: 10
 ExeStack: 
 Symbols Table: 
 {r=Int value: 0, cnt=Int value: 1, v1=(1, int), v2=(2, int), v3=(3, int)}
 Output: 
 Int value: 20
-Int value: 16
+Int value: 10
 File Table: 
 {}
 Heap: 
@@ -570,15 +640,17 @@ LatchTable:
 {1=2}
 LockTable: 
 {}
+ProcedureTable: 
+{}
 
-ID of the program: 17
+ID of the program: 11
 ExeStack: 
 Compound Stmt ( HeapWriting: v2: Arithmetic exp: HeapReading: VarEval exp : v2 * Value exp: Int value: 10, Compound Stmt ( print (HeapReading: VarEval exp : v2), Compound Stmt ( countDown(cnt), FORK ( Compound Stmt ( HeapWriting: v3: Arithmetic exp: HeapReading: VarEval exp : v3 * Value exp: Int value: 10, Compound Stmt ( print (HeapReading: VarEval exp : v3), countDown(cnt))) ))))
 Symbols Table: 
 {r=Int value: 0, cnt=Int value: 1, v1=(1, int), v2=(2, int), v3=(3, int)}
 Output: 
 Int value: 20
-Int value: 16
+Int value: 10
 File Table: 
 {}
 Heap: 
@@ -586,6 +658,8 @@ Heap:
 LatchTable: 
 {1=2}
 LockTable: 
+{}
+ProcedureTable: 
 {}
 
 ID of the program: 7
@@ -596,7 +670,7 @@ Symbols Table:
 {r=Int value: 0, cnt=Int value: 1, v1=(1, int), v2=(2, int), v3=(3, int)}
 Output: 
 Int value: 20
-Int value: 16
+Int value: 10
 File Table: 
 {}
 Heap: 
@@ -605,8 +679,10 @@ LatchTable:
 {1=2}
 LockTable: 
 {}
+ProcedureTable: 
+{}
 
-ID of the program: 17
+ID of the program: 11
 ExeStack: 
 HeapWriting: v2: Arithmetic exp: HeapReading: VarEval exp : v2 * Value exp: Int value: 10
 Compound Stmt ( print (HeapReading: VarEval exp : v2), Compound Stmt ( countDown(cnt), FORK ( Compound Stmt ( HeapWriting: v3: Arithmetic exp: HeapReading: VarEval exp : v3 * Value exp: Int value: 10, Compound Stmt ( print (HeapReading: VarEval exp : v3), countDown(cnt))) )))
@@ -614,7 +690,7 @@ Symbols Table:
 {r=Int value: 0, cnt=Int value: 1, v1=(1, int), v2=(2, int), v3=(3, int)}
 Output: 
 Int value: 20
-Int value: 16
+Int value: 10
 File Table: 
 {}
 Heap: 
@@ -623,6 +699,8 @@ LatchTable:
 {1=2}
 LockTable: 
 {}
+ProcedureTable: 
+{}
 
 ID of the program: 7
 ExeStack: 
@@ -632,7 +710,7 @@ Symbols Table:
 {r=Int value: 0, cnt=Int value: 1, v1=(1, int), v2=(2, int), v3=(3, int)}
 Output: 
 Int value: 20
-Int value: 16
+Int value: 10
 File Table: 
 {}
 Heap: 
@@ -641,15 +719,17 @@ LatchTable:
 {1=2}
 LockTable: 
 {}
+ProcedureTable: 
+{}
 
-ID of the program: 17
+ID of the program: 11
 ExeStack: 
 Compound Stmt ( print (HeapReading: VarEval exp : v2), Compound Stmt ( countDown(cnt), FORK ( Compound Stmt ( HeapWriting: v3: Arithmetic exp: HeapReading: VarEval exp : v3 * Value exp: Int value: 10, Compound Stmt ( print (HeapReading: VarEval exp : v3), countDown(cnt))) )))
 Symbols Table: 
 {r=Int value: 0, cnt=Int value: 1, v1=(1, int), v2=(2, int), v3=(3, int)}
 Output: 
 Int value: 20
-Int value: 16
+Int value: 10
 File Table: 
 {}
 Heap: 
@@ -657,6 +737,8 @@ Heap:
 LatchTable: 
 {1=2}
 LockTable: 
+{}
+ProcedureTable: 
 {}
 
 ID of the program: 7
@@ -667,7 +749,7 @@ Symbols Table:
 {r=Int value: 0, cnt=Int value: 1, v1=(1, int), v2=(2, int), v3=(3, int)}
 Output: 
 Int value: 20
-Int value: 16
+Int value: 10
 File Table: 
 {}
 Heap: 
@@ -676,8 +758,10 @@ LatchTable:
 {1=2}
 LockTable: 
 {}
+ProcedureTable: 
+{}
 
-ID of the program: 17
+ID of the program: 11
 ExeStack: 
 print (HeapReading: VarEval exp : v2)
 Compound Stmt ( countDown(cnt), FORK ( Compound Stmt ( HeapWriting: v3: Arithmetic exp: HeapReading: VarEval exp : v3 * Value exp: Int value: 10, Compound Stmt ( print (HeapReading: VarEval exp : v3), countDown(cnt))) ))
@@ -685,7 +769,7 @@ Symbols Table:
 {r=Int value: 0, cnt=Int value: 1, v1=(1, int), v2=(2, int), v3=(3, int)}
 Output: 
 Int value: 20
-Int value: 16
+Int value: 10
 File Table: 
 {}
 Heap: 
@@ -693,6 +777,8 @@ Heap:
 LatchTable: 
 {1=2}
 LockTable: 
+{}
+ProcedureTable: 
 {}
 
 ID of the program: 7
@@ -703,7 +789,7 @@ Symbols Table:
 {r=Int value: 0, cnt=Int value: 1, v1=(1, int), v2=(2, int), v3=(3, int)}
 Output: 
 Int value: 20
-Int value: 16
+Int value: 10
 Int value: 30
 File Table: 
 {}
@@ -713,15 +799,17 @@ LatchTable:
 {1=2}
 LockTable: 
 {}
+ProcedureTable: 
+{}
 
-ID of the program: 17
+ID of the program: 11
 ExeStack: 
 Compound Stmt ( countDown(cnt), FORK ( Compound Stmt ( HeapWriting: v3: Arithmetic exp: HeapReading: VarEval exp : v3 * Value exp: Int value: 10, Compound Stmt ( print (HeapReading: VarEval exp : v3), countDown(cnt))) ))
 Symbols Table: 
 {r=Int value: 0, cnt=Int value: 1, v1=(1, int), v2=(2, int), v3=(3, int)}
 Output: 
 Int value: 20
-Int value: 16
+Int value: 10
 Int value: 30
 File Table: 
 {}
@@ -730,6 +818,8 @@ Heap:
 LatchTable: 
 {1=2}
 LockTable: 
+{}
+ProcedureTable: 
 {}
 
 ID of the program: 7
@@ -740,7 +830,7 @@ Symbols Table:
 {r=Int value: 0, cnt=Int value: 1, v1=(1, int), v2=(2, int), v3=(3, int)}
 Output: 
 Int value: 20
-Int value: 16
+Int value: 10
 Int value: 30
 File Table: 
 {}
@@ -750,8 +840,10 @@ LatchTable:
 {1=2}
 LockTable: 
 {}
+ProcedureTable: 
+{}
 
-ID of the program: 17
+ID of the program: 11
 ExeStack: 
 countDown(cnt)
 FORK ( Compound Stmt ( HeapWriting: v3: Arithmetic exp: HeapReading: VarEval exp : v3 * Value exp: Int value: 10, Compound Stmt ( print (HeapReading: VarEval exp : v3), countDown(cnt))) )
@@ -759,7 +851,7 @@ Symbols Table:
 {r=Int value: 0, cnt=Int value: 1, v1=(1, int), v2=(2, int), v3=(3, int)}
 Output: 
 Int value: 20
-Int value: 16
+Int value: 10
 Int value: 30
 File Table: 
 {}
@@ -769,6 +861,8 @@ LatchTable:
 {1=2}
 LockTable: 
 {}
+ProcedureTable: 
+{}
 
 ID of the program: 7
 ExeStack: 
@@ -778,9 +872,9 @@ Symbols Table:
 {r=Int value: 0, cnt=Int value: 1, v1=(1, int), v2=(2, int), v3=(3, int)}
 Output: 
 Int value: 20
-Int value: 16
+Int value: 10
 Int value: 30
-Int value: 17
+Int value: 11
 File Table: 
 {}
 Heap: 
@@ -789,17 +883,19 @@ LatchTable:
 {1=1}
 LockTable: 
 {}
+ProcedureTable: 
+{}
 
-ID of the program: 17
+ID of the program: 11
 ExeStack: 
 FORK ( Compound Stmt ( HeapWriting: v3: Arithmetic exp: HeapReading: VarEval exp : v3 * Value exp: Int value: 10, Compound Stmt ( print (HeapReading: VarEval exp : v3), countDown(cnt))) )
 Symbols Table: 
 {r=Int value: 0, cnt=Int value: 1, v1=(1, int), v2=(2, int), v3=(3, int)}
 Output: 
 Int value: 20
-Int value: 16
+Int value: 10
 Int value: 30
-Int value: 17
+Int value: 11
 File Table: 
 {}
 Heap: 
@@ -807,6 +903,8 @@ Heap:
 LatchTable: 
 {1=1}
 LockTable: 
+{}
+ProcedureTable: 
 {}
 
 ID of the program: 7
@@ -817,9 +915,9 @@ Symbols Table:
 {r=Int value: 0, cnt=Int value: 1, v1=(1, int), v2=(2, int), v3=(3, int)}
 Output: 
 Int value: 20
-Int value: 16
+Int value: 10
 Int value: 30
-Int value: 17
+Int value: 11
 File Table: 
 {}
 Heap: 
@@ -828,16 +926,18 @@ LatchTable:
 {1=1}
 LockTable: 
 {}
+ProcedureTable: 
+{}
 
-ID of the program: 17
+ID of the program: 11
 ExeStack: 
 Symbols Table: 
 {r=Int value: 0, cnt=Int value: 1, v1=(1, int), v2=(2, int), v3=(3, int)}
 Output: 
 Int value: 20
-Int value: 16
+Int value: 10
 Int value: 30
-Int value: 17
+Int value: 11
 File Table: 
 {}
 Heap: 
@@ -846,17 +946,19 @@ LatchTable:
 {1=1}
 LockTable: 
 {}
+ProcedureTable: 
+{}
 
-ID of the program: 18
+ID of the program: 12
 ExeStack: 
 Compound Stmt ( HeapWriting: v3: Arithmetic exp: HeapReading: VarEval exp : v3 * Value exp: Int value: 10, Compound Stmt ( print (HeapReading: VarEval exp : v3), countDown(cnt)))
 Symbols Table: 
 {r=Int value: 0, cnt=Int value: 1, v1=(1, int), v2=(2, int), v3=(3, int)}
 Output: 
 Int value: 20
-Int value: 16
+Int value: 10
 Int value: 30
-Int value: 17
+Int value: 11
 File Table: 
 {}
 Heap: 
@@ -864,6 +966,8 @@ Heap:
 LatchTable: 
 {1=1}
 LockTable: 
+{}
+ProcedureTable: 
 {}
 
 ID of the program: 7
@@ -874,9 +978,9 @@ Symbols Table:
 {r=Int value: 0, cnt=Int value: 1, v1=(1, int), v2=(2, int), v3=(3, int)}
 Output: 
 Int value: 20
-Int value: 16
+Int value: 10
 Int value: 30
-Int value: 17
+Int value: 11
 File Table: 
 {}
 Heap: 
@@ -885,8 +989,10 @@ LatchTable:
 {1=1}
 LockTable: 
 {}
+ProcedureTable: 
+{}
 
-ID of the program: 18
+ID of the program: 12
 ExeStack: 
 HeapWriting: v3: Arithmetic exp: HeapReading: VarEval exp : v3 * Value exp: Int value: 10
 Compound Stmt ( print (HeapReading: VarEval exp : v3), countDown(cnt))
@@ -894,9 +1000,9 @@ Symbols Table:
 {r=Int value: 0, cnt=Int value: 1, v1=(1, int), v2=(2, int), v3=(3, int)}
 Output: 
 Int value: 20
-Int value: 16
+Int value: 10
 Int value: 30
-Int value: 17
+Int value: 11
 File Table: 
 {}
 Heap: 
@@ -905,6 +1011,8 @@ LatchTable:
 {1=1}
 LockTable: 
 {}
+ProcedureTable: 
+{}
 
 ID of the program: 7
 ExeStack: 
@@ -914,9 +1022,9 @@ Symbols Table:
 {r=Int value: 0, cnt=Int value: 1, v1=(1, int), v2=(2, int), v3=(3, int)}
 Output: 
 Int value: 20
-Int value: 16
+Int value: 10
 Int value: 30
-Int value: 17
+Int value: 11
 File Table: 
 {}
 Heap: 
@@ -925,17 +1033,19 @@ LatchTable:
 {1=1}
 LockTable: 
 {}
+ProcedureTable: 
+{}
 
-ID of the program: 18
+ID of the program: 12
 ExeStack: 
 Compound Stmt ( print (HeapReading: VarEval exp : v3), countDown(cnt))
 Symbols Table: 
 {r=Int value: 0, cnt=Int value: 1, v1=(1, int), v2=(2, int), v3=(3, int)}
 Output: 
 Int value: 20
-Int value: 16
+Int value: 10
 Int value: 30
-Int value: 17
+Int value: 11
 File Table: 
 {}
 Heap: 
@@ -943,6 +1053,8 @@ Heap:
 LatchTable: 
 {1=1}
 LockTable: 
+{}
+ProcedureTable: 
 {}
 
 ID of the program: 7
@@ -953,9 +1065,9 @@ Symbols Table:
 {r=Int value: 0, cnt=Int value: 1, v1=(1, int), v2=(2, int), v3=(3, int)}
 Output: 
 Int value: 20
-Int value: 16
+Int value: 10
 Int value: 30
-Int value: 17
+Int value: 11
 File Table: 
 {}
 Heap: 
@@ -964,8 +1076,10 @@ LatchTable:
 {1=1}
 LockTable: 
 {}
+ProcedureTable: 
+{}
 
-ID of the program: 18
+ID of the program: 12
 ExeStack: 
 print (HeapReading: VarEval exp : v3)
 countDown(cnt)
@@ -973,9 +1087,9 @@ Symbols Table:
 {r=Int value: 0, cnt=Int value: 1, v1=(1, int), v2=(2, int), v3=(3, int)}
 Output: 
 Int value: 20
-Int value: 16
+Int value: 10
 Int value: 30
-Int value: 17
+Int value: 11
 File Table: 
 {}
 Heap: 
@@ -983,6 +1097,8 @@ Heap:
 LatchTable: 
 {1=1}
 LockTable: 
+{}
+ProcedureTable: 
 {}
 
 ID of the program: 7
@@ -993,9 +1109,9 @@ Symbols Table:
 {r=Int value: 0, cnt=Int value: 1, v1=(1, int), v2=(2, int), v3=(3, int)}
 Output: 
 Int value: 20
-Int value: 16
+Int value: 10
 Int value: 30
-Int value: 17
+Int value: 11
 Int value: 40
 File Table: 
 {}
@@ -1005,17 +1121,19 @@ LatchTable:
 {1=1}
 LockTable: 
 {}
+ProcedureTable: 
+{}
 
-ID of the program: 18
+ID of the program: 12
 ExeStack: 
 countDown(cnt)
 Symbols Table: 
 {r=Int value: 0, cnt=Int value: 1, v1=(1, int), v2=(2, int), v3=(3, int)}
 Output: 
 Int value: 20
-Int value: 16
+Int value: 10
 Int value: 30
-Int value: 17
+Int value: 11
 Int value: 40
 File Table: 
 {}
@@ -1024,6 +1142,8 @@ Heap:
 LatchTable: 
 {1=1}
 LockTable: 
+{}
+ProcedureTable: 
 {}
 
 ID of the program: 7
@@ -1034,11 +1154,11 @@ Symbols Table:
 {r=Int value: 0, cnt=Int value: 1, v1=(1, int), v2=(2, int), v3=(3, int)}
 Output: 
 Int value: 20
-Int value: 16
+Int value: 10
 Int value: 30
-Int value: 17
+Int value: 11
 Int value: 40
-Int value: 18
+Int value: 12
 File Table: 
 {}
 Heap: 
@@ -1047,18 +1167,20 @@ LatchTable:
 {1=0}
 LockTable: 
 {}
+ProcedureTable: 
+{}
 
-ID of the program: 18
+ID of the program: 12
 ExeStack: 
 Symbols Table: 
 {r=Int value: 0, cnt=Int value: 1, v1=(1, int), v2=(2, int), v3=(3, int)}
 Output: 
 Int value: 20
-Int value: 16
+Int value: 10
 Int value: 30
-Int value: 17
+Int value: 11
 Int value: 40
-Int value: 18
+Int value: 12
 File Table: 
 {}
 Heap: 
@@ -1066,6 +1188,8 @@ Heap:
 LatchTable: 
 {1=0}
 LockTable: 
+{}
+ProcedureTable: 
 {}
 
 ID of the program: 7
@@ -1075,11 +1199,11 @@ Symbols Table:
 {r=Int value: 0, cnt=Int value: 1, v1=(1, int), v2=(2, int), v3=(3, int)}
 Output: 
 Int value: 20
-Int value: 16
+Int value: 10
 Int value: 30
-Int value: 17
+Int value: 11
 Int value: 40
-Int value: 18
+Int value: 12
 File Table: 
 {}
 Heap: 
@@ -1087,6 +1211,8 @@ Heap:
 LatchTable: 
 {1=0}
 LockTable: 
+{}
+ProcedureTable: 
 {}
 
 ID of the program: 7
@@ -1097,11 +1223,11 @@ Symbols Table:
 {r=Int value: 0, cnt=Int value: 1, v1=(1, int), v2=(2, int), v3=(3, int)}
 Output: 
 Int value: 20
-Int value: 16
+Int value: 10
 Int value: 30
-Int value: 17
+Int value: 11
 Int value: 40
-Int value: 18
+Int value: 12
 File Table: 
 {}
 Heap: 
@@ -1109,6 +1235,8 @@ Heap:
 LatchTable: 
 {1=0}
 LockTable: 
+{}
+ProcedureTable: 
 {}
 
 ID of the program: 7
@@ -1118,11 +1246,11 @@ Symbols Table:
 {r=Int value: 0, cnt=Int value: 1, v1=(1, int), v2=(2, int), v3=(3, int)}
 Output: 
 Int value: 20
-Int value: 16
+Int value: 10
 Int value: 30
-Int value: 17
+Int value: 11
 Int value: 40
-Int value: 18
+Int value: 12
 Int value: 100
 File Table: 
 {}
@@ -1131,6 +1259,8 @@ Heap:
 LatchTable: 
 {1=0}
 LockTable: 
+{}
+ProcedureTable: 
 {}
 
 ID of the program: 7
@@ -1141,11 +1271,11 @@ Symbols Table:
 {r=Int value: 0, cnt=Int value: 1, v1=(1, int), v2=(2, int), v3=(3, int)}
 Output: 
 Int value: 20
-Int value: 16
+Int value: 10
 Int value: 30
-Int value: 17
+Int value: 11
 Int value: 40
-Int value: 18
+Int value: 12
 Int value: 100
 File Table: 
 {}
@@ -1154,6 +1284,8 @@ Heap:
 LatchTable: 
 {1=0}
 LockTable: 
+{}
+ProcedureTable: 
 {}
 
 ID of the program: 7
@@ -1163,11 +1295,11 @@ Symbols Table:
 {r=Int value: 0, cnt=Int value: 1, v1=(1, int), v2=(2, int), v3=(3, int)}
 Output: 
 Int value: 20
-Int value: 16
+Int value: 10
 Int value: 30
-Int value: 17
+Int value: 11
 Int value: 40
-Int value: 18
+Int value: 12
 Int value: 100
 Int value: 7
 File Table: 
@@ -1177,6 +1309,8 @@ Heap:
 LatchTable: 
 {1=0}
 LockTable: 
+{}
+ProcedureTable: 
 {}
 
 ID of the program: 7
@@ -1185,11 +1319,11 @@ Symbols Table:
 {r=Int value: 0, cnt=Int value: 1, v1=(1, int), v2=(2, int), v3=(3, int)}
 Output: 
 Int value: 20
-Int value: 16
+Int value: 10
 Int value: 30
-Int value: 17
+Int value: 11
 Int value: 40
-Int value: 18
+Int value: 12
 Int value: 100
 Int value: 7
 Int value: 100
@@ -1200,5 +1334,7 @@ Heap:
 LatchTable: 
 {1=0}
 LockTable: 
+{}
+ProcedureTable: 
 {}
 
