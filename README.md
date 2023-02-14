@@ -1,1 +1,2 @@
 # 💾 Advanced Programming Methods
+This Java project is an implementation of a toy programming language that provides: multithreading, procedures, synchronization mechanism for threads (lock and count down latch), a garbage collector that automates the process of reclaiming memory that is no longer being used by the program, a heap data structure that provides a mechanism for allocating and managing memory dynamically and many more. Also, this Java project includes a user interface implemented using JavaFX.
