@@ -85,6 +85,7 @@ public class PrgState {
         r+="LockTable: \n";
         r+=lockTable.tostr();
         r+="\n";
+        r+="ProcedureTable: \n";
         r+=procTable.tostr();
         r+="\n";
         r+="\n";
